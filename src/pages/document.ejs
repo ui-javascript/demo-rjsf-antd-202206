@@ -5,6 +5,10 @@
     <meta name="theme-color" content="#1890ff" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>React 多页面</title>
+    
+    <link href="https://cdn.bootcss.com/tailwindcss/0.7.3/utilities.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.bootcss.com/antd/3.16.6/antd.min.css" rel="stylesheet"> -->
+    
   </head>
   <body>
     <noscript>
@@ -22,7 +26,7 @@
       <% for(var i=0; i< context.config.routes.length; i++) {%>
         <% if (context.config.routes[i].path == '/') {continue;} %>
 
-          <a style="display: inline-block;" href='.<%= context.config.routes[i].path %>.html'>
+          <a style="display: inline-block;margin-left: 5px;" href='.<%= context.config.routes[i].path %>.html'>
             .<%= context.config.routes[i].path %>.html
           </a>
        

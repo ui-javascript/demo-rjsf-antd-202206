@@ -1,3 +1,3 @@
 exports.CONFIG = {
-  entry: './_rjsf-antd/*.jsx',
+  entry: './_rjsf-antd/**/index.js',
 };

@@ -1,18 +1,12 @@
 # 常见问题 
 
-- 修改entry, 争取打包出来MPA @todo
+- Cannot read properties of undefined (reading 'component') @fix
 
 ```
-@ps 但感觉不好搞
-暂时还是多路由页面
-
-===
-chain-webpack
-
-===
-暂时不要在底部写
-ReactDOM.render(<App />, document.getElementById('root'))
+要保证 mpa.config.js 能匹配到组件
 ```
+
+![](https://luo0412.oss-cn-hangzhou.aliyuncs.com/1656197096843-6856yzy3ak7E-image.png)
 
 - @umijs/runtime“ does not exist in container @fix 
     - https://blog.csdn.net/qq_40593656/article/details/120083448
