@@ -23,7 +23,7 @@
     ".umirc.js",
     "typings.d.ts",
     "src/pages/index/index.tsx",
-    "__demo/sub.jsx"
+    "_rjsf-antd/index.js"
   ],
   "exclude": [
     "node_modules",
