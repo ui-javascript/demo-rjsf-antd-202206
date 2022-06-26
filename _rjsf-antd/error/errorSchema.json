@@ -1,0 +1,5 @@
+{
+  "firstName": {
+    "__errors": ["some error that got added as a prop"]
+  }
+}
